@@ -1,0 +1,20 @@
+[project]
+title = "Cereal And Calories Mapping"
+version = "0.1.0"
+port = 8501
+slug = "cereal-and-calories-mapping"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Cereal And Calories Mapping"
+logo = "images/cerealLogo.jpg"
+favicon = "images/cerealIcon.ico"
+primaryColor = "#1abc9c"
+
+[data.cereal_csv]
+type = "csv"
+path = "data/cereal.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
